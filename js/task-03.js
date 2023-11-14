@@ -26,5 +26,3 @@ const imagesHTML = images
   .join("");
 
 ulGallery.insertAdjacentHTML("beforeend", imagesHTML);
-
-ulGallery.classList.add("flex-container");
